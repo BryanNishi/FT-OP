@@ -23,7 +23,7 @@ app.get("/api.json", (req, res, next) => {
     if (err) {
       console.log("Can not connect to the DB because of " + err);
     }
-    client.query("SELECT * FROM users", function(err, result) {
+    client.query("SELECT * FROM link", function(err, result) {
       done();
       if (err) {
         console.log(err);

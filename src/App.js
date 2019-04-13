@@ -24,7 +24,7 @@ class App extends Component {
               <div key={i} className={styles.Data}>
                 <ul>
                   <li>ID: {item.id}</li>
-                  {/* <li>Name: {item.name</li> */}
+                  <li>Name: {item.name}</li>
                   {/* <li>Age: {item.age}</li> */}
                   {/* <li>Password: {item.pass}</li> */}
                 </ul>
